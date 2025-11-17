@@ -15,6 +15,7 @@ export async function answerQuestion(question: string) {
     {
       query_embedding: queryEmbedding,
       match_count: 5,
+      similarity_threshold: 0.5,
     }
   );
 
